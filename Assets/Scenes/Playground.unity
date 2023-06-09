@@ -4148,7 +4148,7 @@ GameObject:
   - component: {fileID: 1720285522}
   - component: {fileID: 1720285521}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: WaterCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4713,6 +4713,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Boy0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cd0ee189a243446b9f5e4ac55143da0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8212,6 +8217,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7ab977a21c92388468ee65ad1c0e5a78, type: 2}
+    - target: {fileID: 8345070698610564301, guid: 09aade0ecefd01e4b8f7661acf64f5c2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8345070698610564302, guid: 09aade0ecefd01e4b8f7661acf64f5c2,
         type: 3}
       propertyPath: m_Size.y
@@ -8287,6 +8297,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Environment
       objectReference: {fileID: 0}
+    - target: {fileID: 8345070699146477228, guid: 09aade0ecefd01e4b8f7661acf64f5c2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8345070699146477229, guid: 09aade0ecefd01e4b8f7661acf64f5c2,
         type: 3}
       propertyPath: m_Size.y
@@ -8297,6 +8312,11 @@ PrefabInstance:
       propertyPath: m_Center.y
       value: 66.62492
       objectReference: {fileID: 0}
+    - target: {fileID: 8345070699892721475, guid: 09aade0ecefd01e4b8f7661acf64f5c2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8345070699892721476, guid: 09aade0ecefd01e4b8f7661acf64f5c2,
         type: 3}
       propertyPath: m_Size.y
@@ -8306,6 +8326,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Center.y
       value: 66.62492
+      objectReference: {fileID: 0}
+    - target: {fileID: 8345070700131179084, guid: 09aade0ecefd01e4b8f7661acf64f5c2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8345070700131179085, guid: 09aade0ecefd01e4b8f7661acf64f5c2,
         type: 3}
