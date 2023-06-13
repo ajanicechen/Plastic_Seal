@@ -44,7 +44,7 @@ public class Collision : MonoBehaviour
 
     IEnumerator LoadPlaygroundScene()
     {
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("Playground", LoadSceneMode.Single);
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("Gameplay2", LoadSceneMode.Single);
 
         // Wait until the new scene is fully loaded
         while (!asyncLoad.isDone)
