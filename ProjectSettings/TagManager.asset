@@ -6,6 +6,7 @@ TagManager:
   tags:
   - CinemachineTarget
   - Seal
+  - NavTarget
   layers:
   - Default
   - TransparentFX
