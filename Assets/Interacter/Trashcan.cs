@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 
 public class Trashcan : MonoBehaviour, Interactable
@@ -19,6 +21,8 @@ public class Trashcan : MonoBehaviour, Interactable
         if (inventory != null && inventory.HasTrash())
         {
             AudioSource.PlayClipAtPoint(_pickupSound, transform.position);
+            SceneManager.LoadScene(6);
+
             return true;
         }
         else
