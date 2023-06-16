@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/PlaceHolderVideo.unity
     guid: b00ac67428bd84741949bb7d816fbe83
   - enabled: 1
+    path: Assets/Scenes/Cutscene0.unity
+    guid: c82d2566c654545749e96840c33eca5f
+  - enabled: 1
     path: Assets/Scenes/Gameplay1.unity
     guid: e9017d5f96b9f09489b4b37e1d6eb914
   - enabled: 1
